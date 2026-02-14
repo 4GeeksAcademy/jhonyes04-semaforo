@@ -66,7 +66,7 @@ export const TrafficLigth = () => {
                         <div className="card-header">
                             <h5 className="card-title">Opciones de semáforo</h5>
                         </div>
-                        <div className="card-body d-flex gap-2">
+                        <div className="card-body d-flex flex-column gap-2">
                             <button
                                 onClick={() => setAlternar(!alternar)}
                                 className={`btn w-100 ${alternar ? 'btn-danger' : 'btn-primary'}`}
