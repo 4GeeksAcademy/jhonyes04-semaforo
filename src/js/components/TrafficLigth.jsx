@@ -4,13 +4,6 @@ import './TrafficLigth.css';
 const TIEMPO_CAMBIO = 1;
 const COLORES_INICIALES = ['red', 'yellow', 'green'];
 
-const ESPERA = {
-    red: 5,
-    yellow: 2,
-    green: 5,
-    purple: 1,
-};
-
 export const TrafficLigth = () => {
     const [colorSeleccionado, setColorSeleccionado] = useState('red');
     const [alternar, setAlternar] = useState(false);
